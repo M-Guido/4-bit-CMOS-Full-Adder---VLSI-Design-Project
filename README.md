@@ -13,14 +13,7 @@ The design implements a 4-bit addition operation using a NAND-only logic gate ap
 * **Protection:** Diode-based ESD protection at all signal pads and latch-up prevention via substrate/well taps.
 
 ## Metal Stack & Interconnects
-The design utilizes the full **6-metal layer stack** provided by the SCMOS process to handle high current requirements and complex signal routing:
-
-* **Metal 1:** Used for local intra-cell connections and horizontal power/ground rails within logic gates.
-* **Metal 2 & Metal 3:** Dedicated to signal "bridges" and long-distance routing between NAND gates to avoid intersections.
-* **Metal 4, 5, & 6:** Primarily used in the PAD ring and power distribution network to minimize resistance and support the 15mA output drive.
-* **Via Strategy:** PAD structures incorporate a vertical stack of all six metals, interconnected through dense via arrays (`m2contact` through `m6contact`) for high reliability and low impedance.
-* **Power Distribution:** Wide power rings are implemented to satisfy electromigration rules (max $0.3 mA/\mu m$ for Metal 1).
-
+The design utilizes the full **6-metal layer stack** provided by the SCMOS process to handle high current requirements and complex signal routing
 
 
 ## File Structure & Cells

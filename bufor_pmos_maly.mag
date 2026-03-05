@@ -1,0 +1,15 @@
+magic
+tech scmos
+timestamp 1769745409
+<< ptransistor >>
+rect -30 2 155 4
+<< pdiffusion >>
+rect -30 4 155 7
+rect -30 0 155 2
+<< pdcontact >>
+rect -30 7 155 27
+rect -30 -20 155 0
+<< polysilicon >>
+rect -33 2 -30 4
+rect 155 2 158 4
+<< end >>

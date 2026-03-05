@@ -1,0 +1,140 @@
+magic
+tech scmos
+timestamp 1770338515
+<< nwell >>
+rect -1 28 477 58
+<< metal1 >>
+rect 3 44 475 54
+rect 84 29 88 33
+rect 30 25 31 29
+rect 80 25 88 29
+rect 126 24 130 26
+rect 126 20 142 24
+rect 190 22 216 26
+rect 265 22 270 26
+rect 312 22 317 26
+rect 353 24 363 28
+rect 138 16 142 20
+rect 312 18 316 22
+rect 138 12 177 16
+rect 359 16 363 24
+rect 409 20 415 24
+rect 426 22 430 26
+rect 466 22 470 26
+rect 359 12 396 16
+rect 434 12 453 16
+rect 1 -6 473 4
+<< m2contact >>
+rect 84 33 88 37
+rect -6 22 -2 26
+rect 31 25 35 29
+rect 154 26 158 30
+rect 202 26 206 30
+rect 265 26 269 30
+rect 94 22 98 26
+rect 44 18 48 22
+rect 250 21 254 25
+rect 301 22 305 26
+rect 13 12 17 16
+rect 63 12 67 16
+rect 113 12 117 16
+rect 233 12 237 16
+rect 284 12 288 16
+rect 312 14 316 18
+rect 369 22 373 26
+rect 422 22 426 26
+rect 336 12 340 16
+rect 430 12 434 16
+<< metal2 >>
+rect 35 25 94 29
+rect 202 32 269 36
+rect 202 30 206 32
+rect 265 30 269 32
+rect 56 -4 60 25
+rect 63 16 67 25
+rect 90 22 94 25
+rect 254 21 261 25
+rect 305 22 369 26
+rect 257 16 261 21
+rect 218 12 233 16
+rect 257 12 284 16
+rect 263 4 267 12
+rect 312 4 316 14
+rect 323 12 336 16
+rect 263 0 316 4
+rect 430 -4 434 12
+rect 56 -8 434 -4
+<< m3contact >>
+rect 84 37 88 41
+rect 154 30 158 34
+rect -6 18 -2 22
+rect 40 18 44 22
+rect 13 8 17 12
+rect 257 25 261 29
+rect 422 26 426 30
+rect 109 12 113 16
+rect 214 12 218 16
+rect 319 12 323 16
+<< metal3 >>
+rect 88 37 158 41
+rect 154 34 158 37
+rect 257 35 426 39
+rect 257 29 261 35
+rect 422 30 426 35
+rect -14 18 -6 22
+rect -2 18 40 22
+rect -14 8 13 12
+rect 17 8 113 12
+rect 214 0 218 12
+rect 319 0 323 12
+rect 214 -4 323 0
+use nand  nand_0
+timestamp 1769730353
+transform 1 0 13 0 1 10
+box -19 -10 21 38
+use nand  nand_1
+timestamp 1769730353
+transform 1 0 63 0 1 10
+box -19 -10 21 38
+use nand  nand_2
+timestamp 1769730353
+transform 1 0 113 0 1 10
+box -19 -10 21 38
+use nand  nand_3
+timestamp 1769730353
+transform 1 0 173 0 1 10
+box -19 -10 21 38
+use nand  nand_4
+timestamp 1769730353
+transform 1 0 233 0 1 10
+box -19 -10 21 38
+use nand  nand_5
+timestamp 1769730353
+transform 1 0 284 0 1 10
+box -19 -10 21 38
+use nand  nand_6
+timestamp 1769730353
+transform 1 0 336 0 1 10
+box -19 -10 21 38
+use nand  nand_7
+timestamp 1769730353
+transform 1 0 392 0 1 10
+box -19 -10 21 38
+use nand  nand_8
+timestamp 1769730353
+transform 1 0 449 0 1 10
+box -19 -10 21 38
+<< labels >>
+rlabel metal1 130 20 134 24 1 n3
+rlabel metal1 190 22 194 26 1 n4
+rlabel metal2 257 21 261 25 1 n5
+rlabel m2contact 301 22 305 26 1 n6
+rlabel metal1 359 12 363 16 1 n7
+rlabel metal2 56 25 60 29 1 n1
+rlabel metal3 92 37 96 41 1 n2
+rlabel metal3 214 -4 218 0 1 CI
+rlabel metal1 411 20 415 24 1 S
+rlabel metal1 466 22 470 26 1 CO
+rlabel metal3 -14 18 -10 22 3 A
+rlabel metal3 -14 8 -10 12 3 B
+<< end >>
